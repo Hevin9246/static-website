@@ -1,0 +1,11 @@
+{
+    "routes": [
+      { "handle": "filesystem" },
+      { "src": "/", "dest": "/index.html" },
+      
+      { "src": "/(.*)/js/(.*)", "dest": "/js/$2" },
+      { "src": "/(.*)/css/(.*)", "dest": "/css/$2" },
+      { "src": "/(.*)/images/(.*)", "dest": "/css/$2" },
+      
+    ]
+  }
