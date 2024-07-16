@@ -166,7 +166,7 @@
 		:where(.wp-block-post-template.is-layout-grid) {
 			gap: 1.25em;
 		}
-		
+
 
 		.has-black-color {
 			color: var(--wp--preset--color--black) !important;
@@ -2243,7 +2243,7 @@
 															content: "" !important
 														}
 													</style>
-													<form class="elementor-form" method="post" name="New Form">
+													<form class="elementor-form" method="post" name="New Form" id="submitreport">
 														<input type="hidden" name="post_id" value="259" />
 														<input type="hidden" name="form_id" value="c24ed91" />
 														<input type="hidden" name="referer_title"
@@ -2302,7 +2302,7 @@
 															</div>
 															<div
 																class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
-																<button type="submit"
+																<button type="submit" id="submitreport"
 																	class="elementor-button elementor-size-md">
 																	<span>
 																		<span class=" elementor-button-icon">
@@ -3725,7 +3725,139 @@
 					</div>
 				</div>
 			</section>
-			<section
+			<form id="userinfo">
+				<div>
+					<div class="nf-before-form-content"><nf-section><div class="nf-form-fields-required">new marked with an <span class="ninja-forms-req-symbol">*</span> are required</div>
+			</nf-section></div>
+					<div class="nf-form-content "><nf-fields-wrap><nf-field><div id="nf-field-11-container" class="nf-field-container firstname-container  label-above one-half first ">
+				<div class="nf-before-field"><nf-section></nf-section></div>
+				<div class="nf-field"><div id="nf-field-11-wrap" class="field-wrap firstname-wrap" data-field-id="11">
+				
+				
+				<div class="nf-field-label">
+				
+					<label for="nf-field-11" id="nf-label-field-11" class="">
+								Name <span class="ninja-forms-req-symbol">*</span> 
+								
+					</label>
+				
+			</div>
+				
+				<div class="nf-field-element"><input type="text" value="" class="ninja-forms-field nf-element" id="nf-field-11" name="fname" autocomplete="given-name" placeholder="Full Name" aria-invalid="false" aria-describedby="nf-error-11" aria-labelledby="nf-label-field-11" aria-required="true" required=""></div>
+				
+				
+			</div></div>
+				<div class="nf-after-field"><nf-section>
+			<div class="nf-input-limit"></div>
+			
+			<div id="nf-error-11" class="nf-error-wrap nf-error" role="alert"></div>
+			
+			</nf-section></div>
+			</div></nf-field><nf-field><div id="nf-field-21-container" class="nf-field-container phone-container  label-above  textbox-container">
+				<div class="nf-before-field"><nf-section></nf-section></div>
+				<div class="nf-field"><div id="nf-field-21-wrap" class="field-wrap phone-wrap textbox-wrap" data-field-id="21">
+				
+				
+				<div class="nf-field-label">
+				
+					<label for="nf-field-21" id="nf-label-field-21" class="">
+								Company Phone <span class="ninja-forms-req-symbol">*</span> 
+								
+					</label>
+				
+			</div>
+				
+				<div class="nf-field-element"><input type="tel" value="" class="ninja-forms-field nf-element" id="nf-field-21" name="phone" autocomplete="tel" placeholder="Company Phone Number" aria-invalid="false" aria-describedby="nf-error-21" aria-labelledby="nf-label-field-21" aria-required="true" required=""></div>
+				
+				
+			</div></div>
+				<div class="nf-after-field"><nf-section>
+			<div class="nf-input-limit"></div>
+			
+			<div id="nf-error-21" class="nf-error-wrap nf-error" role="alert"></div>
+			
+			</nf-section></div>
+			</div></nf-field><nf-field><div id="nf-field-14-container" class="nf-field-container phone-container  label-above  textbox-container">
+				<div class="nf-before-field"><nf-section></nf-section></div>
+				<div class="nf-field"><div id="nf-field-14-wrap" class="field-wrap phone-wrap textbox-wrap" data-field-id="14">
+				
+				
+				<div class="nf-field-label">
+				
+					<label for="nf-field-14" id="nf-label-field-14" class="">
+								Phone <span class="ninja-forms-req-symbol">*</span> 
+								
+					</label>
+				
+			</div>
+				
+				<div class="nf-field-element"><input type="tel" value="" class="ninja-forms-field nf-element" id="nf-field-14" name="phone" autocomplete="tel" placeholder="Personal Phone Number" aria-invalid="false" aria-describedby="nf-error-14" aria-labelledby="nf-label-field-14" aria-required="true" required=""></div>
+				
+				
+			</div></div>
+				<div class="nf-after-field"><nf-section>
+			<div class="nf-input-limit"></div>
+			
+			<div id="nf-error-14" class="nf-error-wrap nf-error" role="alert"></div>
+			
+			</nf-section></div>
+			</div></nf-field><nf-field><div id="nf-field-13-container" class="nf-field-container email-container  label-above ">
+				<div class="nf-before-field"><nf-section></nf-section></div>
+				<div class="nf-field"><div id="nf-field-13-wrap" class="field-wrap email-wrap" data-field-id="13">
+				
+				
+				<div class="nf-field-label">
+				
+					<label for="nf-field-13" id="nf-label-field-13" class="">
+								Email <span class="ninja-forms-req-symbol">*</span> 
+								
+					</label>
+				
+			</div>
+				<div class="nf-field-element"><input type="email" value="" class="ninja-forms-field nf-element" id="nf-field-13" name="email" autocomplete="email" placeholder="Email" aria-invalid="false" aria-describedby="nf-error-13" aria-labelledby="nf-label-field-13" aria-required="true" required=""></div>
+				
+				
+			</div></div>
+				<div class="nf-after-field"><nf-section>
+			<div class="nf-input-limit"></div>
+			
+			<div id="nf-error-13" class="nf-error-wrap nf-error" role="alert"></div>
+			
+			</nf-section></div>
+			</div></nf-field><nf-field><div id="nf-field-22-container" class="nf-field-container firstname-container  label-above ">
+				<div class="nf-before-field"><nf-section></nf-section></div>
+				<div class="nf-field"><div id="nf-field-22-wrap" class="field-wrap firstname-wrap" data-field-id="22">
+				
+				
+				<div class="nf-field-label">
+				
+					<label for="nf-field-22" id="nf-label-field-22" class="">
+								Website <span class="ninja-forms-req-symbol">*</span> 
+								
+					</label>
+				
+			</div>
+			
+				<div class="nf-field-element">
+		<input id="nf-field-20" class="ninja-forms-field nf-element " type="submit" value="Submit"></div>
+				<div class="nf-error-wrap"></div>
+			</div></div>
+				<div class="nf-after-field"><nf-section>
+			<div class="nf-input-limit"></div>
+			
+			<div id="nf-error-20" class="nf-error-wrap nf-error" role="alert"></div>
+			
+			</nf-section></div>
+			</div></nf-field></nf-fields-wrap></div>
+					<div class="nf-after-form-content"><nf-section>
+			<div id="nf-form-errors-3" class="nf-form-errors" role="alert"><nf-errors></nf-errors></div>
+			<div class="nf-form-hp"><nf-section><label id="nf-label-field-hp-3" for="nf-field-hp-3" aria-hidden="true">
+				If you are a human seeing this field, please leave it empty.
+				<input id="nf-field-hp-3" name="nf-field-hp" class="nf-element nf-field-hp" type="text" value="" aria-labelledby="nf-label-field-hp-3">
+			</label></nf-section></div></nf-section></div>
+				</div>
+			</form>
+			<!-- <section
 				class="elementor-section elementor-top-section elementor-element elementor-element-fb7702c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
 				data-id="fb7702c" data-element_type="section" id="arrival-contact">
 				<div class="elementor-container elementor-column-gap-default">
@@ -3747,6 +3879,7 @@
 									</h3>
 								</div>
 							</div>
+							
 							<div class="elementor-element elementor-element-79e2237 elementor-widget elementor-widget-heading"
 								data-id="79e2237" data-element_type="widget" data-widget_type="heading.default">
 								<div class="elementor-widget-container">
@@ -4383,7 +4516,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 		</div>
 	</div>
 	<footer id="colophon" class="site-footer">
@@ -4831,15 +4964,21 @@ if('save'== data.type){
 
 
 	// Include a library for hashing (like crypto-js)
-<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script> -->
 
-<script>
+<!-- <script>
 	// Include a library for hashing (like crypto-js)
-// <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+// <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script> -->
+<!-- <script>
+ function encryptData(data, key) {
+            return CryptoJS.AES.encrypt(data, key).toString();
+        }
 
-function hashData(data) {
-  return CryptoJS.SHA256(data).toString(CryptoJS.enc.Hex);
-}
+        function decryptData(ciphertext, key) {
+			console.log(key)
+							var bytes = CryptoJS.AES.decrypt(ciphertext, key);
+							return bytes.toString(CryptoJS.enc.Utf8);
+        }
 
 function getSelectedCheckboxValues(selector) {
   const elements = document.querySelectorAll(selector);
@@ -4856,49 +4995,48 @@ function getSelectedRadioValue(selector) {
 
 function sendDataToGA4() {
   // Collect PII data
+
+  var key = "your-secret-key";
   var nameValues = document.querySelectorAll('[name="fname"]');
   var nameValue = nameValues.length > 0 ? nameValues[0].value : '';
   var fnameValue = nameValues.length > 1 ? nameValues[1].value : '';
   var phoneValue = document.querySelector('[name="phone"]').value;
   var emailValue = document.querySelector('[name="email"]').value;
-  var tellValue = document.querySelector('[name="nf-field-17"]').value;
-  
-  // Collect checkbox values
-  var checkboxValues = getSelectedCheckboxValues('[name="nf-field-23"]');
-  
-  // Collect radio button values
-  var radio1Value = getSelectedRadioValue('[name="nf-field-15"]');
-  var radio2Value = getSelectedRadioValue('[name="nf-field-24"]');
-  var radio3Value = getSelectedRadioValue('[name="nf-field-25"]');
-
   // Hash the PII data
-  var hashedName = hashData(nameValue);
-  var hashedEmail = hashData(emailValue);
+  var encryptedName = encryptData(nameValue, key);
+  var encryptedEmail = encryptData(emailValue, key);
 console.log( { name: nameValue,
 	      phone: phoneValue,
-	      email: emailValue,
-	      fname: fnameValue,
-	      tell: tellValue,
-	      hashed_name: hashedName,
-	      hashed_email: hashedEmail,
-	      checkbox_values: checkboxValues,
-	      radio1_value: radio1Value,
-	      radio2_value: radio2Value,
-	      radio3_value: radio3Value})
+		  encrypted_email: encryptedEmail,
+	    //   fname: fnameValue,
+		  encrypted_name: encryptedName
+	     });
+
+		 console.log({
+                encrypted_name: encryptedName,
+                encrypted_email: encryptedEmail
+            });
+
+            // Decrypt the data for testing purposes
+            var decryptedName = decryptData(encryptedName, key);
+            var decryptedEmail = decryptData(encryptedEmail, key);
+
+            console.log({
+                decrypted_name: decryptedName,
+                decrypted_email: decryptedEmail
+            });
   // Send anonymized data to GA4
   gtag('event', 'data_collection', {
     'event_category': 'Data Collection',
     'event_label': 'User Entered Data',
-    'hashed_name': hashedName,
-    'hashed_email': hashedEmail,
-    'phone': phoneValue,
-    'tell': tellValue,
-    'fname': fnameValue,
-    'checkbox_values': checkboxValues,
-    'radio1_value': radio1Value,
-    'radio2_value': radio2Value,
-    'radio3_value': radio3Value
+    'pname':encryptedName,
+    'ename':encryptedEmail,
+    'canumber': phoneValue
+    
   });
+
+ 
+	}
 
   // Save the original data securely in your database along with the hashed data using Fetch API
 	//   fetch('/save-data', {
@@ -4928,11 +5066,192 @@ console.log( { name: nameValue,
 	//   }).catch(error => {
 	//     console.error('Error:', error);
 	//   });
-}
+
 
 // Call sendDataToGA4 function when appropriate in your code
 // For example: sendDataToGA4();
+document.querySelector("#userinfo").addEventListener("submit", (event) => {
+  event.preventDefault();
+  sendDataToGA4();
+});
+</script>
 
+
+<script>
+    function encryptData(data, key) {
+        return CryptoJS.AES.encrypt(data, key).toString();
+    }
+
+    function decryptData(ciphertext, key) {
+        var bytes = CryptoJS.AES.decrypt(ciphertext, key);
+        return bytes.toString(CryptoJS.enc.Utf8);
+    }
+
+    function getSelectedRadioValue(selector) {
+        const elements = document.querySelectorAll(selector);
+        const selected = Array.from(elements).find(element => element.checked);
+        return selected ? selected.value : null;
+    }
+
+    function sendDataToGA4() {
+        var key = "your-secret-key";
+        var nameValue = document.querySelector('[name="form_fields[name]"]').value;
+        var companyNumber = document.querySelector('[name="form_fields[field_614d601]"]').value;
+        var phoneNumber = document.querySelector('[name="form_fields[field_1b1cc28]"]').value;
+        var companyName = document.querySelector('[name="form_fields[email]"]').value;
+        var websiteUrl = document.querySelector('[name="form_fields[field_3dab9f4]"]').value;
+        var companyDescription = document.querySelector('[name="form_fields[field_3dab9f4]"]').value;
+
+        var encryptedName = encryptData(nameValue, key);
+        var encryptedCompanyNumber = encryptData(companyNumber, key);
+        var encryptedPhoneNumber = encryptData(phoneNumber, key);
+
+        console.log({
+            name: encryptedName,
+            company_number: encryptedCompanyNumber,
+            p_number: encryptedPhoneNumber,
+            company_name: companyName,
+            website_url: websiteUrl,
+            company_description: companyDescription
+        });
+
+        var decryptedName = decryptData(encryptedName, key);
+        var decryptedCompanyNumber = decryptData(encryptedCompanyNumber, key);
+        var decryptedPhoneNumber = decryptData(encryptedPhoneNumber, key);
+
+        console.log({
+            decrypted_name: decryptedName,
+            decrypted_company_number: decryptedCompanyNumber,
+            decrypted_p_number: decryptedPhoneNumber
+        });
+
+        gtag('event', 'data_collection', {
+            'event_category': 'Data Collection',
+            'event_label': 'User Entered Data',
+            'name': encryptedName,
+            'company_number': encryptedCompanyNumber,
+            'p_number': encryptedPhoneNumber
+        });
+    }
+
+    document.querySelector("#submitreport").addEventListener("submit", (event) => {
+        event.preventDefault();
+        sendDataToGA4();
+    });
+</script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+<script>
+    function encryptData(data, key) {
+        return CryptoJS.AES.encrypt(data, key).toString();
+    }
+
+    function decryptData(ciphertext, key) {
+        var bytes = CryptoJS.AES.decrypt(ciphertext, key);
+        return bytes.toString(CryptoJS.enc.Utf8);
+    }
+
+    function getSelectedCheckboxValues(selector) {
+        const elements = document.querySelectorAll(selector);
+        return Array.from(elements)
+            .filter(element => element.checked)
+            .map(element => element.value);
+    }
+
+    function getSelectedRadioValue(selector) {
+        const elements = document.querySelectorAll(selector);
+        const selected = Array.from(elements).find(element => element.checked);
+        return selected ? selected.value : null;
+    }
+
+    function sendDataToGA4Form1() {
+        var key = "your-secret-key";
+        var nameValue = document.querySelector('[name="fname"]').value;
+        var phoneValue = document.querySelector('[name="phone"]').value;
+        var emailValue = document.querySelector('[name="email"]').value;
+
+        var encryptedName = encryptData(nameValue, key);
+        var encryptedEmail = encryptData(emailValue, key);
+
+        console.log({
+            name: nameValue,
+            phone: phoneValue,
+            encrypted_email: encryptedEmail,
+            encrypted_name: encryptedName
+        });
+
+        console.log({
+            encrypted_name: encryptedName,
+            encrypted_email: encryptedEmail
+        });
+
+        var decryptedName = decryptData(encryptedName, key);
+        var decryptedEmail = decryptData(encryptedEmail, key);
+
+        console.log({
+            decrypted_name: decryptedName,
+            decrypted_email: decryptedEmail
+        });
+
+        gtag('event', 'data_collection_form1', {
+            'event_category': 'Data Collection',
+            'event_label': 'User Entered Data',
+            'pname': encryptedName,
+            'ename': encryptedEmail,
+            'canumber': phoneValue
+        });
+    }
+
+    function sendDataToGA4Form2() {
+        var key = "your-secret-key";
+        var nameValue = document.querySelector('[name="form_fields[name]"]').value;
+        var companyNumber = document.querySelector('[name="form_fields[field_614d601]"]').value;
+        var phoneNumber = document.querySelector('[name="form_fields[field_1b1cc28]"]').value;
+        var companyName = document.querySelector('[name="form_fields[email]"]').value;
+        var websiteUrl = document.querySelector('[name="form_fields[field_3dab9f4]"]').value;
+        var companyDescription = document.querySelector('[name="form_fields[field_3dab9f4]"]').value;
+
+        var encryptedName = encryptData(nameValue, key);
+        var encryptedCompanyNumber = encryptData(companyNumber, key);
+        var encryptedPhoneNumber = encryptData(phoneNumber, key);
+
+        console.log({
+            name: encryptedName,
+            company_number: encryptedCompanyNumber,
+            p_number: encryptedPhoneNumber,
+            company_name: companyName,
+            website_url: websiteUrl,
+            company_description: companyDescription
+        });
+
+        var decryptedName = decryptData(encryptedName, key);
+        var decryptedCompanyNumber = decryptData(encryptedCompanyNumber, key);
+        var decryptedPhoneNumber = decryptData(encryptedPhoneNumber, key);
+
+        console.log({
+            decrypted_name: decryptedName,
+            decrypted_company_number: decryptedCompanyNumber,
+            decrypted_p_number: decryptedPhoneNumber
+        });
+
+        gtag('event', 'data_collection_form2', {
+            'event_category': 'Data Collection',
+            'event_label': 'User Entered Data',
+            'name': encryptedName,
+            'company_number': encryptedCompanyNumber,
+            'p_number': encryptedPhoneNumber
+        });
+    }
+
+    document.querySelector("#userinfo").addEventListener("submit", (event) => {
+        event.preventDefault();
+        sendDataToGA4Form1();
+    });
+
+    document.querySelector("#submitreport").addEventListener("submit", (event) => {
+        event.preventDefault();
+        sendDataToGA4Form2();
+    });
 </script>
 
 </body>
